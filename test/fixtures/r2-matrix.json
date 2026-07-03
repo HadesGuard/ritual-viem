@@ -1,0 +1,38 @@
+{
+  "tip": 40793061,
+  "matrix": [
+    {
+      "era": "pruned-era (20M)",
+      "block": 20000000,
+      "hash": "0x8f1fa995acad35c025fc5521365c16d0da0d701c256cbe8f48e1bb5fa142bbe1",
+      "getTransactionByHash": "NULL",
+      "getTransactionReceipt": "NULL",
+      "getBlockByNumber_full": "DATA(4 txs)",
+      "blockBodyAsyncFields": "PRESENT",
+      "getBlockReceipts": "DATA(0)",
+      "getLogs": "DATA(0)"
+    },
+    {
+      "era": "mid-history (40M, above prune floor)",
+      "block": 40000000,
+      "hash": "0x90bf22ade7d3a6b5d2c9262616bb7121feaedc9db0341efcc4f62b4946f1f3be",
+      "getTransactionByHash": "NULL",
+      "getTransactionReceipt": "NULL",
+      "getBlockByNumber_full": "DATA(1 txs)",
+      "blockBodyAsyncFields": "PRESENT",
+      "getBlockReceipts": "DATA(0)",
+      "getLogs": "DATA(0)"
+    },
+    {
+      "era": "near-tip",
+      "block": 40793058,
+      "hash": "0x89449b0a11c069e3100cfac29ec260be80594f1eee5dd9c14eb0e846d36fa3aa",
+      "getTransactionByHash": "DATA",
+      "getTransactionReceipt": "DATA",
+      "getBlockByNumber_full": "DATA(2 txs)",
+      "blockBodyAsyncFields": "PRESENT",
+      "getBlockReceipts": "DATA(2)",
+      "getLogs": "DATA(8)"
+    }
+  ]
+}
