@@ -32,8 +32,12 @@
   "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {
-      "chains": ["./dist/chains/index.d.ts"],
-      "protocol": ["./dist/protocol/index.d.ts"]
+      "chains": [
+        "./dist/chains/index.d.ts"
+      ],
+      "protocol": [
+        "./dist/protocol/index.d.ts"
+      ]
     }
   },
   "exports": {
@@ -81,6 +85,7 @@
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.4",
+    "@types/node": "^22.20.0",
     "publint": "^0.2.12",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2",
